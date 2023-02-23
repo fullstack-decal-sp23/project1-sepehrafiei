@@ -1,0 +1,66 @@
+<!DOCTYPE html>
+
+<html>
+    <head>
+        <meta charset="utf-8">
+        <meta http-equiv="X-UA-Compatible" content="IE=edge">
+        <title>Sepehr Rafiei</title>
+        <meta name="author" content="Sepehr>
+        <meta name="description" content="Personal Website for Sepehr Rafiei">
+        <meta name="viewport" content="width=device-width, initial-scale=1">
+        <link rel="stylesheet" href="styles.css">
+    </head>
+    <body>
+        <div  class="welcome">
+            <div class="menu">
+                <div class="menu-item"><a href="#about" class="pages">About</a></div>
+                <div class="menu-item"><a href="#work" class="pages">Work</a></div>
+                <div class="menu-item"><a href="#contact" class="pages">Contact</a></div>
+            </div>
+            <div class="sign">
+                <a href="#about" class="proceed"><h1><span class="auto-type"></span></h1></a>
+            </div>
+        </div>
+        <div  id="about">
+            <h4 class="title">About</h4>
+            <div class="canvas">
+                <h2><span class="about-type"></span></h2>
+            </div>
+        </div>
+        <div id="work">
+            <div class="title">Works</div>
+
+        </div>
+        <div id="contact">
+            <h3 class="title">Contact</h3>
+            <iframe style="width:100%" src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3149.5036199482347!2d-122.26072858462639!3d37.87190341433826!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x808f7718c522d7c1%3A0xda8034ea3b6b3289!2sUniversity%20of%20California%2C%20Berkeley!5e0!3m2!1sen!2sus!4v1677126069575!5m2!1sen!2sus" width="600" height="450" style="border:0;" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>
+            <form action="">
+                <div>
+                    <label for="name">Full Name:</label>
+                    <input type="text" id="name">
+                </div>
+                <div><label for="email">Email:</label>
+                    <input type="email" id="email"></div>
+                <input id="submit-btn" type="submit" value="Submit">
+            </form>
+        </div>
+        
+        <script src="https://cdn.jsdelivr.net/npm/typed.js@2.0.12"></script>
+        <script>
+            var typed = new Typed(".auto-type", {
+                strings: ["Welcome!", "My name is<br>Sepehr", "This is my<br>personal website"],
+                typeSpeed: 110,
+                backSpeed: 50,
+                loop: true
+            })
+
+            var typed2 = new Typed(".about-type", {
+                strings: ["As a student at UC Berkeley pursuing a Bachelor's degree in Electrical Engineering and Computer Science, I am passionate about developing my skills as a software engineer and web developer. Through my coursework and personal projects, I have gained expertise in various programming languages and web development frameworks.<br><br>In addition to my technical skills, I excel in communication and problem-solving, enabling me to collaborate effectively with teams and exceed expectations. As a software engineer at Alcatel-Lucent Enterprise, I led two projects and demonstrated my ability to communicate complex technical concepts and work with cross-functional teams to achieve project goals.<br><br>Furthermore, my experience as a Course-Embedded Tutor for two programming college courses has honed my ability to teach programming concepts to students, providing them with the necessary skills to succeed in their coursework. Through this experience, I have developed strong interpersonal skills and the ability to communicate technical concepts in a clear and concise manner.<br><br>My mission is to continue developing my skills and knowledge in software engineering and web development and apply them to create impactful solutions that make a difference in people's lives. Whether I am working on a personal project or collaborating with a team, I am dedicated to leveraging my skills to help drive success and push the boundaries of what is possible in the world of technology."],
+                typeSpeed:10,
+                backSpeed: 1,
+                loop: false
+            })
+        </script>
+        <script src="" async defer></script>
+    </body>
+</html>
